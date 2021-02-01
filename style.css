@@ -232,11 +232,11 @@ body {
     background-color: #F5F5F5;
 }
 
-.Cards-Block-Side-Bar {
+.Side-Bar {
     flex: 20%;
     padding: var(--overallWebPageSpacing);
     padding-left: 0px;
-    background-color: #B0B0B0;
+    background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -342,4 +342,64 @@ body {
 
 .Card-Source-Link:hover {
     color: #FF0000;
+}
+/* About Me */
+#About-Me {
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 2px solid #EDEDED;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#About-Me-Images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 225px;
+}
+
+#About-Me-Background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#About-Me-Image {
+    z-index: 2;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+#About-Me-Content {
+    margin-top: -50px; /* -75px + 25px = To extra space + general padding of 25px */
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#About-Me-Name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#About-Me-Location {
+    font-size: 14px;
+}
+
+#About-Me-Description {
+    margin-top: 10px;
+    font-size: 14px;
 }
