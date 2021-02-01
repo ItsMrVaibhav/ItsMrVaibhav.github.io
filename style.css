@@ -20,6 +20,10 @@
     --overallWebPageSpacing: 25px;
 }
 
+body {
+    background-color: #0D0D0D;
+}
+
 /* Container */
 .Container {
     width: 100%;
@@ -167,4 +171,112 @@
 #Explore-Designs-Button:hover, #Explore-Projects-Button:hover {
     background-color: #0080FF;
     color: #FFFFFF;
+}
+
+/* Cards Block */
+.Cards-Block {
+    display: flex;
+    flex-direction: row;
+}
+
+.Cards-Block-Content {
+    flex: 75%;
+    padding: var(--overallWebPageSpacing);
+    background-color: #0080FF;
+}
+
+.Heading {
+    font-size: 50px;
+    font-family: "Bebas Neue";
+}
+
+.Text-Block {
+    font-size: 16px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 12.5px 0px;
+    margin: 0px -12.5px;
+}
+
+.Card {
+    position: relative;
+    width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 12.5px;
+    background-color: #FFFFFF;
+}
+
+.Card a {
+    text-decoration: none;
+}
+
+.Card-Showcase {
+    position: relative;
+    width: 100%;
+}
+
+.Card-Showcase-Entity {
+    width: 100%;
+}
+
+.Card-Body {
+    padding: 15px;
+}
+
+.Card-Heading {
+    color: #000000;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+
+.Card-Description {
+    color: #000000;
+    font-size: 14px;
+}
+
+.Card-Horizontal-Line {
+    height: 1px;
+    background-color: #D3D3D3;
+    margin: 5px -15px;
+}
+
+.Card-Tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card-Tag {
+    color: #0080FF;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.Card-Tag::before {
+    content: "#";
+}
+
+.Card-Attribution {
+    font-size: 14px;
+    color: #0080FF;
+}
+
+.Card-Source-Link {
+    font-size: 14px;
+    color: #0080FF;
+}
+
+.Card-Source-Link:hover {
+    color: #FF0000;
+}
+
+.Cards-Block-Side-Bar {
+    flex: 25%;
+    padding: var(--overallWebPageSpacing);
+    padding-left: 0px;
+    background-color: #FF0000;
 }
