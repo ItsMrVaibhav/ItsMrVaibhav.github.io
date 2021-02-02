@@ -28,6 +28,30 @@ body {
     background-color: #0D0D0D;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Placeholder
+.Placeholder {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100000;
+}
+
+.Placeholder p {
+    font-size: 60px;
+    font-family: "Bebas Neue";
+    color: #FFFFFF;
+} */
+
 /* Container */
 .Container {
     width: 100%;
