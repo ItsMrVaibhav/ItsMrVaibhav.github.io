@@ -87,6 +87,7 @@ html {
 
 #Navigation-Bar-Branding img {
     height: 50px;
+    cursor: pointer;
 }
 
 #Navigation-Bar-Branding p {
@@ -181,7 +182,6 @@ html {
 }
 
 #Showcase-Buttons {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -377,6 +377,8 @@ html {
     flex-direction: column;
     overflow: hidden;
     border-radius: 5px;
+    position: sticky;
+    top: 75px;
 }
 
 #About-Me-Images {
@@ -426,4 +428,91 @@ html {
 #About-Me-Description {
     margin-top: 10px;
     font-size: 14px;
+}
+
+#About-Me-Contact-Title {
+    font-family: 16px;
+    margin-top: 10px;  
+}
+
+#About-Me-Contacts {
+    display: flex;flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px -5px;
+    margin-top: 15px;  
+}
+
+.About-Me-Contact {
+    filter: grayscale(100%);
+    height: 35px;
+    margin: 5px;
+}
+
+.About-Me-Contact:hover {
+    filter: grayscale(0%);
+}
+
+@media (max-width: 1436px) {
+    .Cards-Block {
+        flex-direction: column;
+    }
+
+    .Cards-Block-Content {
+        flex: 100%;
+        padding: var(--overallWebPageSpacing);
+        order: 2;
+    }
+    
+    .Side-Bar {
+        order: 1;
+        flex: 100%;
+        padding: var(--overallWebPageSpacing);
+        padding-left: 0px;
+    }
+
+    .Side-Bar {
+        padding-left: 25px;
+    }
+
+    #About-Me {
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media (max-width: 616px) {
+    #Showcase-Title {
+        font-size: 60px;
+    }
+    
+    #Showcase-Sub-Title {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 525px) {
+    #Navigation-Bar-Branding p {
+        display: none;
+    }
+}
+
+@media (max-width: 470px) {
+    #Showcase-Buttons {
+        flex-direction: column;
+    }
+
+    #Explore-Designs-Button {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 325px) {
+    #Showcase-Title {
+        font-size: 50px;
+    }
+    
+    #Showcase-Sub-Title {
+        font-size: 16px;
+    }
 }
