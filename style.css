@@ -303,6 +303,11 @@ html {
     margin: 12.5px;
     background-color: #FFFFFF;
     border: 2px solid #EDEDED;
+    transition: all 0.5s;
+}
+
+.Card:hover {
+    transform: scale(1.04);
 }
 
 .Card a {
@@ -326,6 +331,12 @@ html {
     color: #000000;
     font-family: "Bebas Neue";
     font-size: 30px;
+}
+
+.Card-Date {
+    color: #000000;
+    font-size: 14px;
+    margin: 5px 0px;
 }
 
 .Card-Description {
@@ -430,6 +441,16 @@ html {
     font-size: 14px;
 }
 
+#About-Me-Description span {
+    color: #0080FF;
+}
+
+#About-Me-Email {
+    font-size: 14px;
+    color: #0080FF;
+    margin-top: 5px;
+}
+
 #About-Me-Contact-Title {
     font-family: 16px;
     margin-top: 10px;  
@@ -478,6 +499,12 @@ html {
     #About-Me {
         position: relative;
         top: 0px;
+    }
+}
+
+@media (max-height: 750px) {
+    #Showcase {
+        min-height: 750px;
     }
 }
 
