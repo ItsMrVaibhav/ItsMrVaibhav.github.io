@@ -344,6 +344,18 @@ html {
     font-size: 14px;
 }
 
+.Card-Descriptionn span {
+    color: #0080FF;
+}
+
+.Card-Descriptionn a {
+    color: #0080FF;
+}
+
+.Card-Description a:hover {
+    color: #FF0000;
+}
+
 .Card-Horizontal-Line {
     height: 1px;
     background-color: #EDEDED;
