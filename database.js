@@ -3,7 +3,7 @@
 
 var designs = [
     {
-        "cardLink": "https://itsmrvaibhav.github.io/tags-and-images/",
+        "cardLink": "https://itsmrvaibhav.github.io/3-cards-ui-designs/",
         "showcaseURL": "./Assets/Designs/3-Cards-UI-Designs-05-02-2021.jpg",
         "cardHeading": "3 Cards UI Designs",
         "cardDate": "5th February, 2021",
