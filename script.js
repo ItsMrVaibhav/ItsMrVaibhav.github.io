@@ -10,7 +10,6 @@ document.querySelector(".H").onclick = function() {
 
 document.querySelector(".A").onclick = scrollToAbout;
 document.querySelector(".D").onclick = scrollToWebDesigns;
-
 document.querySelector(".P").onclick = scrollToWebDevProjects;
 
 function scrollToAbout() {
