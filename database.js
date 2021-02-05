@@ -1,41 +1,20 @@
+// <p class="Card-Attribution">Original Content</p>
+// <a class="Card-Source-Link" href="https://www.instagram.com/itsmrvaibhav" target="_black">Link to the reference</a>
+
 var designs = [
     {
-        "showcaseURL": "./Assets/Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg",
-        "cardHeading": "Code Snippets Manager 2.0",
-        "cardDate": "20th September, 2020",
-        "cardDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quas cum omnis quam neque fugiat aperiam reiciendis illum sunt! Eum quos animi maiores molestias iste, assumenda ipsam provident ab cum quas itaque voluptatibus debitis! Quaerat ut, porro praesentium velit mollitia, incidunt ipsam quis repudiandae quod dicta aut omnis totam veniam.",
-        "cardTag1": "tag1",
-        "cardTag2": "tag2",
-        "cardTag3": "tag3",
-        "cardTag4": "tag4",
-        "cardTag5": "tag5",
-        "cardAttribution": "Original Content"
+        "cardLink": "https://itsmrvaibhav.github.io/tags-and-images/",
+        "showcaseURL": "./Assets/Designs/3-Cards-UI-Designs-05-02-2021.jpg",
+        "cardHeading": "3 Cards UI Designs",
+        "cardDate": "5th February, 2021",
+        "cardDescription": "Here are three simple cards UI designs. All the designs have a showcase for an image, a title, and a description. Two of them even have a button, which means you can link that button to any URL or an event.",
+        "cardTag1": "minimal",
+        "cardTag2": "cards",
+        "cardTag3": "ui-design",
+        "cardTag4": "design",
+        "cardTag5": "images",
+        "cardAttribution": `<p class="Card-Attribution">Original Content</p>`
     },
-    {
-        "showcaseURL": "./Assets/Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg",
-        "cardHeading": "Code Snippets Manager 2.0",
-        "cardDate": "20th September, 2020",
-        "cardDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quas cum omnis quam neque fugiat aperiam reiciendis illum sunt! Eum quos animi maiores molestias iste, assumenda ipsam provident ab cum quas itaque voluptatibus debitis! Quaerat ut, porro praesentium velit mollitia, incidunt ipsam quis repudiandae quod dicta aut omnis totam veniam.",
-        "cardTag1": "tag1",
-        "cardTag2": "tag2",
-        "cardTag3": "tag3",
-        "cardTag4": "tag4",
-        "cardTag5": "tag5",
-        "cardAttribution": "Original Content"
-    },
-    {
-        "showcaseURL": "./Assets/Images/ilya-pavlov-OqtafYT5kTw-unsplash.jpg",
-        "cardHeading": "Code Snippets Manager 2.0",
-        "cardDate": "20th September, 2020",
-        "cardDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam quas cum omnis quam neque fugiat aperiam reiciendis illum sunt! Eum quos animi maiores molestias iste, assumenda ipsam provident ab cum quas itaque voluptatibus debitis! Quaerat ut, porro praesentium velit mollitia, incidunt ipsam quis repudiandae quod dicta aut omnis totam veniam.",
-        "cardTag1": "tag1",
-        "cardTag2": "tag2",
-        "cardTag3": "tag3",
-        "cardTag4": "tag4",
-        "cardTag5": "tag5",
-        "cardAttribution": "Original Content"
-    }
-
 ];
 
 var projects = [
